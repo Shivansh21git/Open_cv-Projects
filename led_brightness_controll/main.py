@@ -1,6 +1,7 @@
 import cv2 as cv
 import mediapipe as mp
 import math
+import controller as cnt
 
 mp_draw = mp.solutions.drawing_utils
 
@@ -31,7 +32,7 @@ with mp.solutions.hands.Hands(max_num_hands=1, min_detection_confidence=0.1, min
                 distance =math.sqrt((thumb_tip.x-index_tip.x)**2+(thumb_tip.y-index_tip.y)**2)
                 print(distance)
                 cv.line(image,(c1x,c1y),(c2x,c2y),(0,255,0),3)
-
+                cnt.led(distance)
       
                     
         
