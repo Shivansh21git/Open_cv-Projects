@@ -1,3 +1,8 @@
+
+''' This example is to find any colour thresold limits for colour detection using main file.
+if you dont know the upper and lower limits of colour you want to detect than using this sript
+you can find those thresolds using trackbars adjustments from the live frame '''
+
 import cv2
 import numpy as np
 
