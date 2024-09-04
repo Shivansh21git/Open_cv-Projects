@@ -1,4 +1,4 @@
-# ✋ Finger Gap-Based Brightness Control
+# ✋ Gesture-Based Brightness Control
 This project showcases an innovative way to control the brightness of an LED using hand gestures. By measuring the distance between the thumb and index finger using Mediapipe and OpenCV, the brightness of the LED is dynamically adjusted. The project leverages computer vision techniques to provide a touchless and intuitive interface for controlling brightness.
 
 # 🚀 Project Overview
